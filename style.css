@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 2vw;
+    box-sizing: border-box;
+    color: white;
+}
+
+.label {
+    color: yellow;
+    background-color: red;
+    border: 0.2vw solid yellow;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 96vw;
+    min-height: 96vh;
+    max-height: auto;
+    box-sizing: border-box;
+    font-size: 2vw;
+    font-family: 'Comic Sans MS';
+    position: relative;
+}
+
+.banner {
+    background-color: white;
+    color: black;
+    padding: 1vw;
+    border: 0.2vw solid yellow;
+    border-radius: 1vw;
+    position: absolute;
+    top: -2vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5vw;
+}
+
+button {
+    font-family: 'Comic Sans MS';
+    font-size: 2.5vw;
+    border: 0.2vw solid black;
+    border-radius: 1vw;
+    padding: 1vw;
+}
